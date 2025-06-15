@@ -10,6 +10,9 @@ DocConnect is a telemedicine application that connects doctors and patients for 
 - npm (v6 or later)
 - MongoDB (must be running locally or configured via environment variables)
 
+
+Note : Install mongo DB shell not compass ( which is just a GUI to access data of mongo DB 
+
 ### Running the Application
 
 #### Option 1: Using npm (Recommended)
@@ -70,6 +73,7 @@ If you prefer to start the server and client manually:
 ### Environment Variables
 
 Create a `.env` file in the server directory with the following variables:
+Note .env should be cretaed inside server folder
 
 ```
 PORT=5000
